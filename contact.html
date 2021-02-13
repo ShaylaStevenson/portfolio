@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c3c011729d.js" crossorigin="anonymous"></script>
+    <title>Shayla Stevenson</title>
+</head>
+<body>
+    <!--Navigation Brand-->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top py-0" id="navbar-custom">
+        <span class="navbar-brand h1 mb-0 p-0">
+            <span><img src="assets/crystal.png" class="img-fluid mx-auto d-block-inline mb-2 mr-2" alt="crystal-icon"></span>Shayla Stevenson
+        </span>
+
+    <!--Hamburger Icon-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <!--Navigation Links-->
+        <div class="collapse navbar-collapse justify-content-end py-0" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+          </div>    
+    </nav>
+
+    <!--Contact Greeting Box-->
+    <main class="container-sm">
+        <div class="row">
+            <div class="col-sm-5 ">
+                <h1 class="display-1 p-2 m-2" id="contact-greeting" >It would be great to hear from you</h1>
+            </div>
+    <!--Content Form-->
+            <div class="col-sm-7 mt-2 p-2">
+                <form>
+                    <div class="form-group">
+                        <label for="emailInput">Email Address</label>
+                        <input type="email" class="form-control form-control-lg text-muted" id="emailInput" name="email" placeholder="example@email.com">
+                        <large class="form-text text-muted">Your privacy is important to me.</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneInput">Phone Number</label>
+                        <input type="tel" class="form-control form-control-lg text-muted" id="phoneInput" name="phone" placeholder="XXX-XXX-XXXX">
+                        <large class="form-text text-muted"><em>ring...ring...</em>hi</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea class="form-control" id="messageInput" rows="6" placeholder="Please provide a brief description of your web service needs. I am here to help!"></textarea>
+                        <large class="form-text text-muted">We're off to a great start!</large>
+                    </div> 
+                    <button type="submit" class="btn btn-default form-text" id="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="container-fluid-sm custom-footer fixed-bottom p-1">
+        <div class="row">
+            <div class="col-4">
+                <a href="https://www.facebook.com/shayla.stevenson.165" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://www.instagram.com/shayla711/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://github.com/ShaylaStevenson" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+     
+</body>
+</html>
