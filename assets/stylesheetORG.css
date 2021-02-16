@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    color: rgb(72, 40, 146);
+    font-family: 'Dosis', sans-serif;
+    background-image: url("assets/images/bamboo-fill.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: 11vw;
+    padding-bottom: 18vw;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+/**  Start Navigation Bar Styling **/ 
+ #navbar-custom {
+    background-color:rgb(82, 139, 158);
+}
+
+#navbar-custom .navbar-brand {
+    color:darkmagenta;
+    font-size: 4vw;
+}
+
+.navbar-brand img {
+    width: 4vw;
+    height: 4vw;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: rgb(72, 40, 146);
+    font-size: 1.5em;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color:rgb(240, 149, 14);
+}
+
+/** Start Header/Img Styling**/
+.custom-top-container {
+    background-color:darkmagenta;
+}
+
+.greeting-text-box {
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.8vw;
+    text-align:end;
+}
+
+#custom-greeting {
+    color: rgb(240, 149, 14);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
+}
+
+/** Start Main Content Styling **/
+.custom-content-container {
+    background-color:rgba(240, 149, 14, .5);
+    
+}
+
+.custom-content-container p {
+    background-color: white;
+    color: darkslategrey;   
+}
+
+/** Start Contact Greeting Box Styling**/
+#contact-greeting {
+    border-color:darkmagenta;
+    border-width: 15px;
+    border-style: solid;
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.5vw;
+    text-align:end;
+}
+
+/** Start Contact Content Form Styling**/
+.form-text {
+    text-align: end;
+}
+
+form label {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#submit-button {
+    background-color: white;
+}
+
+#submit-button:hover {
+    color:rgb(240, 149, 14);
+}
+
+#submit-button:focus {
+    color:darkmagenta;
+}
+
+/** Start Portfolio Greeting Styling**/
+#portfolio-greeting {
+    border-color:rgb(240, 149, 14);
+    border-width: 15px;
+    border-style: solid;
+    background-color:rgba(173, 216, 230, .5);
+    color:rgb(72, 40, 146);
+    font-size: 5.5vw;
+    text-align:end;
+}
+
+#custom-portfolio-container {
+    background-image: url("assets/images/office-table.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+/** Start Portfolio Link Figures**/
+.portfolio-project-main {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .portfolio-project-centered {
+    background-color: rgba(255, 255, 255, .7);
+    color: rgb(39, 40, 41);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-project-main a h1:hover,
+.portfolio-project-main a img:hover {
+    color:rgba(240, 149, 14, .5);
+}
+
+
+/** Start Footer Styling**/
+.custom-footer {
+    background-color: lightblue;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-footer i {
+    color: rgb(72, 40, 146);
+}
+
+.custom-footer i:hover {
+    color: rgb(240, 149, 14);
+}
