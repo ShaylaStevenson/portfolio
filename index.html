@@ -36,22 +36,80 @@
         </div>  
     </nav>
 
-    <header class="jumbotron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid mt-0 py-3">
         <div class="container">
             <div class="row">
+                <!--text-->
+                <div class="col-md-8 border rounded border-white d-flex justify-content-end mb-3 my-1" id="greeting-div">
+                    <h1 class="display-1 py-1"><span id="greeting">Hello</span></br>I'm glad you stopped by</h1>
+                </div>
+                <!--image-->
                 <div class="col-md-4" id="image-div">
-                    <img src="assets/images/myphoto.jpg" class="img-thumbnail" alt="my photo"/>
-                    <!-- img-fluid d-flex mx-auto-->
+                    <img src="assets/images/myphoto.jpg" class="img-thumbnail img-responsive" alt="my photo"/>
                 </div>
-                <div class="col-md-8 align-self-end border rounded border-white mt-2 mb-1" id="greeting-div">
-                    
-                    <h1 class="display-1 pt-2"><span id="greeting">Hello</span></br>I'm glad you stopped by</h1>
-                    
-                    <!-- d-flex mx-auto-->
-                </div>
+
             </div>
         </div>
     </header>
+
+    <!--Content Box with Paragraphs-->
+    <main class="container-fluid custom-content-container">
+
+        <div class="row">
+            <div class="col-sm custom-content-head">
+                <h2 class="py-2">About Me</h2>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <p class="m-1 p-1 pb-4">
+                    I am a web designer. Currently, I am studying Full Stack Web Development through the University of Washington. 
+                    I have experience in HTML, CSS, Bootstrap 4, and Javascript. The skills that I am acquiring allow me to develop fully functioning,
+                    responsive web applications. I also have experience in refactoring to improve the performance of existing websites. 
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="m-1 p-1">
+                    My background in business management provides me a unique perspective in web development. I know the frustration that comes from using
+                    a clunky and inaccessible web application. At the heart of my designs is the concept of the user's experience. I want your employees and 
+                    customers to use my sites intuitivly, which is achieved by efficient flow and navigation throughout the applications.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="m-1 p-1">
+                    Your website is your organization's home. As such, I want its guests to feel welcome and comfortable. Your website should represent your 
+                    businesses' unique message and style. The first stage in my design process is to get to know your brand in order to create a space that supports
+                    its mission. This is achieved through the use of logical flow, informative content, cohesive color schemes, and attention-grabbing images.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="container-fluid-sm custom-footer fixed-bottom p-1">
+        <div class="row">
+            <div class="col-4">
+                <a href="https://www.facebook.com/shayla.stevenson.165" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://www.instagram.com/shayla711/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://github.com/ShaylaStevenson" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

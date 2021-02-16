@@ -8,8 +8,8 @@ body{
     background-image: url("images/bamboo-fill.jpg");
     background-repeat: repeat;
     background-size: cover;
-    padding-top: 11vw;
-    padding-bottom: 18vw;
+    padding-top: calc(60px + 2vw);
+    padding-bottom: calc(60px + 1vw);
     min-width: 100%;
     min-height: 100%;
 
@@ -44,16 +44,13 @@ body{
 
 /** Jumbotron **/
 .jumbotron {
-    margin-top: calc(30px +1vw);
+    margin-bottom: calc(0px + 1vw);
     background-color: rgba(139, 0, 139, .8);
-}
-
-.jumbotron .row {
-    
 }
 
 #greeting-div {
     background-color: lightblue;
+    text-align: end;
 }
 
 #greeting-div h1 {
@@ -66,17 +63,34 @@ body{
     text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
 
-#image-div {
-    
+/** About Me Content **/
+.custom-content-container {
+    background-color:rgba(240, 149, 14, .5); 
 }
-/** Wide Screen **/
-@media screen and (min-width: 970px) {
-    .jumbotron {
-        padding-left: 80px;
-    }
+
+.custom-content-head {
+    text-shadow: -1px -1px 0 rgb(152, 148, 144), 1px -1px 0 rgb(152, 148, 144), -1px 1px 0 rgb(240, 149, 14), 1px 1px 0 rgb(240, 149, 14);
 }
-/** Mobile Screen **/
-@media screen and (max-width: 600px) {
-   
+
+.custom-content-container p {
+    background-color: white;
+    color: darkslategrey;  
+    font-size: calc(16px + .5vw); 
+}
+
+/** Footer**/
+.custom-footer {
+    background-color: lightblue;
+    font-size: calc(24px + 1vw);
+    display: flex;
+    justify-content: center;
+}
+
+.custom-footer i {
+    color: rgb(72, 40, 146);
+}
+
+.custom-footer i:hover {
+    color: rgb(240, 149, 14);
 }
 
