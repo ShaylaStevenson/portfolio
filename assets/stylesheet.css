@@ -42,6 +42,8 @@ body{
     color:rgb(240, 149, 14);
 }
 
+/** Home Page**/
+
 /** Jumbotron **/
 .jumbotron {
     margin-bottom: calc(0px + 1vw);
@@ -101,7 +103,6 @@ body{
 .project {
     color:slategray;
     text-decoration: none;
-
 }
 
 .project:hover {
@@ -131,7 +132,43 @@ body{
     text-decoration: none;
 }
 
+/** Contact Page**/
+
+/**Header**/
+#contact-greeting {
+    border-color:darkmagenta;
+    border-width: 15px;
+    border-style: solid;
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.5vw;
+    text-align:end;
+}
+
+/**Form**/
+.form-text {
+    text-align: end;
+}
+
+form label {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#submit-button {
+    background-color: white;
+}
+
+#submit-button:hover {
+    color:rgb(240, 149, 14);
+}
+
+#submit-button:focus {
+    color:darkmagenta;
+}
+
 /** Footer**/
+
 .custom-footer {
     background-color: lightblue;
     font-size: calc(24px + 1.5vw);
