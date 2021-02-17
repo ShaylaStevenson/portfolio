@@ -78,10 +78,63 @@ body{
     font-size: calc(16px + .5vw); 
 }
 
+/**Portfolio Page**/
+
+/**Header**/
+#portfolio-greeting {
+    border-color:rgb(240, 149, 14);
+    border-width: 15px;
+    border-style: solid;
+    background-color:rgba(173, 216, 230, .5);
+    color:rgb(72, 40, 146);
+    font-size: calc(24px + 3vw);
+    text-align:end;
+}
+
+#custom-portfolio-container {
+    background-image: url("images/office-table.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+/**Projects**/
+.project {
+    color:slategray;
+    text-decoration: none;
+
+}
+
+.project:hover {
+    color:rgba(240, 149, 14, .5);
+    text-decoration: none;
+}
+
+.project-details {
+    background-color: white;
+    font-size: calc(16px + .5vw);
+    text-align: center;
+    padding: 10px;
+}
+
+.project-links {
+    font-size: calc(14px + .5vw);
+    text-align: center;
+}
+
+.project-links a {
+    color: rgb(72, 40, 146);
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color:rgba(240, 149, 14, .5);
+    text-decoration: none;
+}
+
 /** Footer**/
 .custom-footer {
     background-color: lightblue;
-    font-size: calc(24px + 1vw);
+    font-size: calc(24px + 1.5vw);
     display: flex;
     justify-content: center;
 }
