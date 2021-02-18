@@ -167,6 +167,15 @@ form label {
     color:darkmagenta;
 }
 
+/**Modal**/
+.modal button:hover {
+    color: rgb(240, 149, 14);
+}
+
+.noHover{
+    pointer-events: none;
+}
+
 /** Footer**/
 
 .custom-footer {
