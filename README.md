@@ -31,6 +31,15 @@ This application is an updated version of my original portfolio page. The follow
 * Removed unnecessary HTML
 * Added a JavaScript file to handle contact information
 
+## Technologies
+* HTML
+* CSS
+* Bootstrap 4
+* JavaScript
+* JQuery
+* Font Awesome
+* Google Fonts
+
 ## Resources
 * Bootstrap documents
 * JQuery documents
@@ -38,11 +47,19 @@ This application is an updated version of my original portfolio page. The follow
 * MDN
 * W3School
 * GeeksforGeeks
-
+* Font Awesome
+* Google Fonts
+ 
 ## Links
-* Visit my new portfolio @ https://shaylastevenson.github.io/portfolio/contact.html
+* Visit my new portfolio @ https://shaylastevenson.github.io/portfolio/
 
 * View Github repository @ https://github.com/ShaylaStevenson/portfolio
 
 * See the original version of my personal portfolio @ [https://shaylastevenson.github.io/personal-bio/)
+
+## Contact Me
+* View my personal portfolio: https://shaylastevenson.github.io/portfolio/
+* Email: shayla.rose.stevenson@gmail.com
+
+
 
