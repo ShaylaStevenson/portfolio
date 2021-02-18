@@ -145,6 +145,31 @@ body{
     text-align:end;
 }
 
+#myInfo {
+    color: slategray;
+    background-color: white;
+    font-size: calc(16px + .5vw);
+    text-align: end;
+    border-color: lightblue;
+    border-width: 15px;
+    border-style: solid;
+    
+}
+
+#myInfo h5 {
+    font-size: calc(22px + .5vw);
+    font-weight: bold;
+}
+
+#myInfo a {
+    color: slategray;
+}
+
+#myInfo a:hover {
+    color: rgb(240, 149, 14);
+    text-decoration: none;
+}
+
 /**Form**/
 .form-text {
     text-align: end;
