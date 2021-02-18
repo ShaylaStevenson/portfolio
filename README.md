@@ -1,55 +1,48 @@
-# Portfolio-Shayla
+# Shayla Stevenson
+## Personal Portfolio
 
-![Site Greeting](assets/navbar-extend.png)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Images](#images)
+- [Notes](#notes)
+- [Resources](#resources)
+- [Links](#links)
 
 ## Introduction
-This is a responsive portfolio designed to introduce myself while utilizing bootstrap tools. You will find that I have heavily customized the Bootstrap 4 grid system by use of utility classes and CSS. The application should convey my personal aesthetics to the user through color, images, and other styling techniques. I hope you enjoy using the site as much I did making it!
+Get to know me! My personal portfolio page features my story as a developer, portfolio, and a way to get in touch. My hope is that you will have a sense of my design aesthetic and abilities when viewing the application. Enjoy!
 
-## Responsive Design
-Use the application on your cellphone or desktop with ease.
-* Collapsible navigation bar
-* Images and text resizes and aligns
-* Body covers full width of mobile device
+## Features
+* Mobile first design
+* Bootstrap 4 responsive grid system
+* Easy navigation by use of internal and external links
+* Dynamic experience when inputting contact information
 
-![responsive-demo](assets/mobile.png)
+## Images
+![home-demo](assets/images/home-demo.png)
+![contact-demo](assets/images/contact-demo.png)
+![portfolio-demo](assets/images/portfolio-demo.png)
 
-## Grid System
-Bootstrap's grid system was used as the framework for the application.
-* Find use of containers, rows, columns, and sub-columns
-* Customization applied directly to grid through utilities in the HTML documents.
+## Notes
+This application is an updated version of my original portfolio page. The following improvements were made to this version:
+* Made use of Bootstrap's jumbotron on the homepage
+* Made more effective use of CSS styling and utility classes
+* Removed unnecessary HTML
+* Added a JavaScript file to handle contact information
 
-![projects](assets/projects.png)
+## Resources
+* Bootstrap documents
+* JQuery documents
+* StackOverflow
+* MDN
+* W3School
+* GeeksforGeeks
 
-## Easy Navigation
-Move around the site and visit links intuitively.
-* Navigation tabs in fixed navbar
-* Scroll bar and smooth scroll applied 
-* Functioning links to external sites throughout applications
-* Sticky footer with links to resources applied to all screens
+## Links
+* Visit my new portfolio @ https://shaylastevenson.github.io/portfolio/contact.html
 
-![navigation](assets/scroll-bar.png)
+* View Github repository @ https://github.com/ShaylaStevenson/portfolio
 
-![sticky-footer](assets/sticky-footer.png)
-
-## Functioning Form
-* Enter content into form to gather users' contact information
-* Submit button 
-
-![contact-box](assets/contact-input.png)
-
-## Script
-* Semantic HTML applied
-* Find your way around code with helpful comments
-
-![script](assets/example-script.png)
-
-## Validation
-* Free of errors according to the W3 validation service
-
-![validation](assets/validation.png)
-
-## Go Check It Out!
-* Visit my personal bio website at: [https://shaylastevenson.github.io/personal-bio/)
-
-* View Github repository at: [https://github.com/ShaylaStevenson/personal-bio)
+* See the original version of my personal portfolio @ [https://shaylastevenson.github.io/personal-bio/)
 
